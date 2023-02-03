@@ -1,0 +1,294 @@
+/*
+ * General/Utility Styles
+*/
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+body {
+  margin: 0;
+  background: rgb(245, 245, 245);
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size: 0.875rem;
+  color: rgb(86, 90, 92);
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+  color: #DD7F55;
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 600;
+}
+
+.container {
+  background: #FFF;
+}
+
+header {
+  background: #FFF;
+  size: 1px;
+}
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.clear {
+  clear: both;
+}
+
+.alignleft {
+  float: left;
+  margin: 0 1rem 1rem 0;
+}
+
+.alignright {
+  float: right;
+  margin: 0 0 1rem 1rem;
+}
+
+.blogtitle {
+  font-size: 1.5rem;
+  margin: 0 0 0 0;
+}
+
+.blogtext {
+  font-size: 0.75rem;
+}
+
+.byline {
+  font-size: 0.75rem;
+}
+
+.monthstamp {
+  font-size: 0.75rem;
+  color: gray;
+}
+
+.quote {
+  font-size: 0.75rem;
+  font-style: italic;
+  border-left: 0.25rem;
+}
+
+body {
+ background: url('../images/notebook.png'); /* add a fallback color of #d6d6d6 */
+ color: #000000;
+ font-family: 'Lato', sans-serif;
+ line-height: 1.7; /* line-height is unit-less */
+ font-size: 100%;
+}  
+
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+-----------------------------------------------------------------------------*/
+
+a {
+     color: #DD7F55;
+     text-decoration: none;
+}
+
+hr {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+#container {
+  width: 90%;
+  margin: 0 auto 0 auto;
+}
+
+#subheader {
+  background: d6d6d6;
+  font-size: 1rem;
+  line-height: 1;
+  padding-top: 2rem;
+}
+
+#subheadertext {
+  background: d6d6d6;
+  font-size: .75rem;
+  line-height: 0;
+  margin: 0 0 2rem 0;
+}
+
+#main {
+  background: whitesmoke;
+  padding: 1.25rem;
+  width: 90%;
+  float: left;
+  margin-right: .6rem;
+}
+
+#main p {
+  text-indent: 5%;
+}
+
+#sidebar {
+  background: whitesmoke;
+  width: 90%;
+  float: left;
+  padding: 1.25rem 0 1.25rem 1.25rem;
+}
+
+#profile {
+  float: left;
+}
+
+#follow {
+  font-size: .9rem;
+  text-align: center;
+}
+
+#qotd {
+  padding: 3rem 0 0 0;
+}
+
+#sidebar p {
+  padding-left: 1rem;
+}
+
+#footer {
+  background: d6d6d6;
+  padding: .25rem 0 1rem 2rem;
+  font-size: .75rem;
+}
+
+
+
+@media only screen and (min-width: 1060px) {
+
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.clear {
+  clear: both;
+}
+
+.alignleft {
+  float: left;
+  margin: 0 1rem 1rem 0;
+}
+
+.alignright {
+  float: right;
+  margin: 0 0 1rem 1rem;
+}
+
+.quote {
+  font-size: 0.75rem;
+  font-style: italic;
+  border-left: 0.25rem;
+}
+
+body {
+ background: url('../images/notebook.png'); /* add a fallback color of #d6d6d6 */
+ color: #000000;
+ font-family: 'Lato', sans-serif;
+ line-height: 1.7; /* line-height is unit-less */
+ font-size: 100%;
+}  
+
+a {
+     color: #DD7F55;
+     text-decoration: none;
+}
+
+hr {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+#container {
+  width: 62rem;
+  margin: 0 auto 0 auto;
+}
+
+#subheader {
+  background: d6d6d6;
+  line-height: 0;
+  padding-top: 2.5rem;
+}
+
+#subheadertext {
+  background: d6d6d6;
+  font-size: .75rem;
+  line-height: 0;
+  margin: 1.5rem 0 2rem 0;
+}
+
+#main {
+  background: whitesmoke;
+  padding: 1.25rem;
+  width: 38rem;
+  float: left;
+  margin-right: .6rem;
+}
+
+#sidebar {
+  background: whitesmoke;
+  width: 18rem;
+  float: left;
+  padding: 1.25rem;
+}
+
+#qotd {
+  padding: .5rem 0 0 0;
+}
+
+#follow {
+  font-size: 1rem;
+  text-align: left;
+}
+
+#footer {
+  background: d6d6d6;
+  padding: .25rem 0 0 5rem;
+  font-size: .75rem;
+}
+
+#sidebar p {
+  padding-left: 1rem;
+}
+
+
+/*
+ * Button styles
+*/
+
+.button {
+  background: rgb(255, 89, 95);
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 0.75rem 5rem;
+  border-bottom: 1px solid rgb(227, 25, 29);
+  border-radius: 2px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+
