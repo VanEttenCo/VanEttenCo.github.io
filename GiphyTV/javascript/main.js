@@ -33,7 +33,7 @@ var apiKey = 'MKSeIwPdA6yJMvnawRXbGv9jmRLAetjt'
 
 var query = input.split(' ').join('+');
 
-var formattedUrl = "http://api.giphy.com/v1/gifs/search?q=" + query 
+var formattedUrl = "https://api.giphy.com/v1/gifs/search?q=" + query 
 
 + '&api_key=' + apiKey;
 
